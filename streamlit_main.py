@@ -16,3 +16,21 @@ def function():
 '''
 
 st.code(sample_code)
+
+st.markdown("streamlit은 **마크다운 문법**을 지원 합니다")
+
+st.table([
+    ['이름', '나이'],
+    ['홍길동', '40'],
+    ['뽀로로', '23'],
+])
+
+st.metric(label = '삼성전자', value= '151,200원', delta='1,200원')
+
+st.title('write()')
+st.write("hello")
+st.write(10, 20, 30)
+st.write([1, 2, 3, 4])
+st.write({'x':100, "y":3.14})
+
+[100, 200, 300, 400]
